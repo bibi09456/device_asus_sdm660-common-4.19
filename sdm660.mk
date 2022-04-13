@@ -13,9 +13,9 @@ PRODUCT_COMPRESSED_APEX := false
 # Default is nosdcard, S/W button enabled in resource
 PRODUCT_CHARACTERISTICS := nosdcard
 
-# AID/fs configs
+# ANT+
 PRODUCT_PACKAGES += \
-    fs_config_files
+    AntHalService
 
 # Audio
 PRODUCT_PACKAGES += \
