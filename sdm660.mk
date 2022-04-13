@@ -13,10 +13,6 @@ PRODUCT_COMPRESSED_APEX := false
 # Default is nosdcard, S/W button enabled in resource
 PRODUCT_CHARACTERISTICS := nosdcard
 
-# AID/fs configs
-PRODUCT_PACKAGES += \
-    fs_config_files
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@7.1-impl \
