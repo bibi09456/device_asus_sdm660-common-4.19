@@ -47,28 +47,6 @@ on post-fs
     start vendor.qseecomd
     wait_for_prop vendor.sys.listeners.registered true
 
-on late-fs
-    # Start services for bootanim
-    start surfaceflinger
-    start bootanim
-
-    start vendor.hwcomposer-2-1
-    start vendor.configstore-hal
-    start vendor.gralloc-2-0
-    start vendor.light-hal-2-0
-
-    # Wait for hwservicemanager ready since fsck might be triggered in mount_all --late
-    # In such case, init won't responce the property_set from hwservicemanager and then
-    # cause services for bootanim not running.
-    wait_for_prop hwservicemanager.ready true
-
-    # Mount RW partitions which need run fsck
-    mount_all /vendor/etc/fstab.qcom --late
-
-    # Report max frequency to unity tasks.
-    write /proc/sys/kernel/sched_lib_name "UnityMain,libunity.so"
-    write /proc/sys/kernel/sched_lib_mask_force 255
-    
 on early-boot
     chown system system /mnt/vendor/persist/sensors
     chown system system /mnt/vendor/persist/sensors/sns.reg
@@ -163,11 +141,3 @@ on property:init.svc.zygote=running
 
 on property:init.svc.zygote=restarting
     stop ppd
-
-on property:sys.boot_completed=1
-    restart time_daemon
-
-    # Defaults for power hints
-    write /sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/hyst_trigger_count 3
-    write /sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/hist_memory 20
-    write /sys/class/devfreq/soc:qcom,cpubw/min_freq 381
