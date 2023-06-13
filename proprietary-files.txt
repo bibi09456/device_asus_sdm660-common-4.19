@@ -390,34 +390,65 @@ vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
 
-# Listen - from Cat S62Pro sdm660_64-user 11 RKQ1.210406.002 1.015.00
-vendor/lib/libadpcmdec.so|b3ec2cc197b682aa6ae7e1da9c8f25cc1aa75750
-vendor/lib/libgcs-calwrapper.so|a80d1d6b0b6e76083b0ca98d690c5cb46e113904
-vendor/lib/libgcs-ipc.so|177f711fc9e01970ef17e9f8a79776ef31d8c973
-vendor/lib/libgcs-osal.so|413c0b9b767d8aa1da477f89b162d5b13604e0cf
-vendor/lib/libgcs.so|136b036d645ce31c3265cf2aed00c472ecec37e4
-vendor/lib/libsmwrapper.so|0fbf611c9a597f7c70bfd2363dfc7f465d1dafd5
+# Listen - from LA.QSSI.13.0.r1-09700-qssi.0
+system_ext/lib/liblistenjni.qti.so|54159c7706bd174def457432e929c3867c8a93e7
+system_ext/lib/liblistensoundmodel2.qti.so|d49dd5bb4f1247422c4654d98af43c75fa8ad18c
+system_ext/lib64/liblistenjni.qti.so|83327fb3590e0269b6c8233591a353613216c8da
+system_ext/lib64/liblistensoundmodel2.qti.so|1a828485e0cfe028eb341e10f62a96a7b453b8a0
 
-# Media - from Cat S62Pro sdm660_64-user 11 RKQ1.210406.002 1.015.00
-vendor/lib/libAlacSwDec.so|3a6d7dae2808dbe111ff4449b4e1e82560466ef3
-vendor/lib/libApeSwDec.so|ff14ad2ebbabcd89278830d817e9aa6bdcb1799a
-vendor/lib/libdsd2pcm.so|f9d2f26315764c27137bc375bb85b20fabe66ff9
-vendor/lib/libFlacSwDec.so|707dbc6b5d2890dc3bba22c00b372f0973baebda
-vendor/lib/libI420colorconvert.so|c8e9a1fb33ae50f5b29c892c6edca2f7d9524af5
-vendor/lib/libmm-color-convertor.so|063b3772fb4c5b85877c35a50e667540cde0c7d6
-vendor/lib/libOmxAacDec.so|3bcfed25d66aab024faf8dbb9a06ce98270c24b6
-vendor/lib/libOmxAlacDec.so|183cda27aaf922689c557cd9a76b68938e1748c9
-vendor/lib/libOmxAlacDecSw.so|ff4b38dbead17dcd0c9a045f109fa4e92ca2992a
-vendor/lib/libOmxAmrDec.so|ebe524b6682f7a9460078a1aa2b986c2c3430b68
-vendor/lib/libOmxAmrwbplusDec.so|ac542cb28956ccab59f9491bacebc96f50a80309
-vendor/lib/libOmxApeDec.so|dcde109eb585c194fdd80c1fe2d1b28614cd68a8
-vendor/lib/libOmxApeDecSw.so|1014274fe2ad40b361a3adecae258161287500dc
-vendor/lib/libOmxDsdDec.so|d265762dfc714d51379a27970b05f325dbe412da
-vendor/lib/libOmxEvrcDec.so|28b401779d9ee45b0e94415faf9ac34c6fd200f0
-vendor/lib/libOmxG711Dec.so|98cd3445efe4cdc5a92672de3e749d71e56f7466
-vendor/lib/libOmxQcelp13Dec.so|ee6ede27923f04f4bb03b101bbf302e4df782945
-vendor/lib/libOmxVideoDSMode.so|84c632ef31c4dd88c5e08f92ba02e3f29df09b35
-vendor/lib/libOmxWmaDec.so|7fe5458ba5e19cd4c8422e910acbe6a6f6574c94
+# Listen - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+vendor/lib/hw/sound_trigger.primary.sdm660.so|7700ac77ffb4ced4a404d12cb962533252f50c83
+vendor/lib/libadpcmdec.so|50af16a56e7741978401b799a84e5ff43dedbfe0
+vendor/lib/libgcs-calwrapper.so|0ac1a2c5e79c4455205bf10b2059007f699a647c
+vendor/lib/libgcs-ipc.so|e75aee393a44c18191a7a91a1d27e75271d90b77
+vendor/lib/libgcs-osal.so|1173b18d227a883d4503b435d75fae5cd5c597f0
+vendor/lib/libgcs.so|c31fb9b9c4ad8466dbaaa0a7c27419209fae0e3a
+vendor/lib/liblistensoundmodel2vendor.so|19df7a0a9de9b313d5ac5013b99892c594f28f55
+vendor/lib/libmulawdec.so|4575d8afb0dd7f9c33fba9fc25fc073d7c525fe5
+vendor/lib/libsmwrapper.so|efc8c8b61d5947a88f2a1f52e6c6d50bac78a61e
+vendor/lib64/hw/sound_trigger.primary.sdm660.so|58419a9261406edd3d1ea84ab2f3df15ec4ae9c4
+vendor/lib64/libgcs-calwrapper.so|740cb0425190f503a1128da5cb33b92893d55f86
+vendor/lib64/libgcs-ipc.so|2af0e02519a4bdf8a4f78f551b3a11268b6daeb6
+vendor/lib64/libgcs-osal.so|fddf561ad3fa2d3917eb424f38ec4d1e450ab5d9
+vendor/lib64/libgcs.so|de535de65ec247f94535daf39d3e7133b31b98bf
+vendor/lib64/liblistensoundmodel2vendor.so|8ebfe82c02e39f8520e1d62c6d611398c9b801bf
+vendor/lib64/libmulawdec.so|179e0f2d77498a0dc9080b9ba7a17ac995b64d2e
+
+# Media - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+vendor/lib/libAlacSwDec.so|0eae95f42049a7ed39137cbba8e735ec1e275282
+vendor/lib/libApeSwDec.so|139c1533a9a48b585e7b2a13488d712ab8cb495d
+vendor/lib/libdsd2pcm.so|110c444d2c0a73b41bae853e2747dd0cdeb617f8
+vendor/lib/libFlacSwDec.so|81dccb2ffe37b83ffc47805354a55dd67eb1f23f
+vendor/lib/libI420colorconvert.so|f1955555897c8f2ccc2a6c28c3ac2f13406b830e
+vendor/lib/libOmxAacDec.so|447e31d9657c0770c8c34f810e5869f1da81882a
+vendor/lib/libOmxAlacDec.so|1aa97ddee0d3e9636a7657d8198ca3049fd16952
+vendor/lib/libOmxAlacDecSw.so|9020b5d4372db495e0069ae72f6fb0c36941c6d1
+vendor/lib/libOmxAmrDec.so|1850e7557406ca38fe2c1c89cd3faa75a16899f8
+vendor/lib/libOmxAmrwbplusDec.so|308574e2a040d6c7df71d80ab26eeaf601bf53aa
+vendor/lib/libOmxApeDec.so|6e0d27f5de8baa0102478bd1bd5dd9365c382e70
+vendor/lib/libOmxApeDecSw.so|6c888102bcb41660b33ae5e9e3d6a871321d4f38
+vendor/lib/libOmxDsdDec.so|e6be2d96d0bde2abcd44f9c7595b294b5f2c41a9
+vendor/lib/libOmxEvrcDec.so|3e1a2ed3f350cf3fc102ffa01bb2ac35be90e83d
+vendor/lib/libOmxG711Dec.so|f47740d8612b46c1072ab7987631c73bb7608f80
+vendor/lib/libOmxQcelp13Dec.so|66e3fe30360958c0521b29e4675933750596835a
+vendor/lib/libOmxWmaDec.so|1865d719564d995e44cd0520a15e44b1c01b34f0
+vendor/lib/libmm-color-convertor.so|720d6081c20fe7024632fb55654134b18887d002
+vendor/lib64/libAlacSwDec.so|cac48c2523ffb5a43797298d38fbe1997094587b
+vendor/lib64/libApeSwDec.so|4b4cf61823110cea4387cfdb2b3636608ae705cb
+vendor/lib64/libFlacSwDec.so|c9e2b0743b5f0e4a434b253e6f24abff7c4932e8
+vendor/lib64/libI420colorconvert.so|658e321538988587f06646b8fe59b34c27dc1d18
+vendor/lib64/libOmxAacDec.so|6d7c6aee811aac1f4173464fcd719b8589466e3e
+vendor/lib64/libOmxAlacDec.so|1d6aff67ddd789033bfb2bf808bd9a6745799e8d
+vendor/lib64/libOmxAlacDecSw.so|ae8092028a48d9e05849b9dce06daccac5735368
+vendor/lib64/libOmxAmrDec.so|2784e8e80fb950cdd57a79f2e5a9c1aad929e902
+vendor/lib64/libOmxAmrwbplusDec.so|a65d8ef9c28d15d45857de241faf7d93e3cfa914
+vendor/lib64/libOmxApeDec.so|70cff683beab55755590b5d8e7f5fd6c389b0a08
+vendor/lib64/libOmxApeDecSw.so|d2d506ff01eff87c406d8527ccb9313e15af8e35
+vendor/lib64/libOmxEvrcDec.so|744b1498a2ee86a8ba8af338844b64f114144c76
+vendor/lib64/libOmxG711Dec.so|b43b5b78a901ca20bfe72db64709e4c8b63f237b
+vendor/lib64/libOmxQcelp13Dec.so|9d8f53e61fbcdaa124fc8a5e4903ce5ff026cb28
+vendor/lib64/libOmxWmaDec.so|bd5cf940ada1c52b81ca597759cbd004562eab8c
+vendor/lib64/libmm-color-convertor.so|ec90d3a541736302cf860e53b9f4c756d921b896
 
 # NFC
 vendor/lib/libpn553_fw.so
@@ -425,11 +456,10 @@ vendor/lib/libpn553_fw.so
 # Perf - from ddv_sprout 11-RKQ1.210607.001-00WW_3_440-release-keys
 vendor/bin/msm_irqbalance|b075c2f4092c175950a2c26d19bf2013e2efd6d5
 
-# Peripheral manager - from Cat S62Pro sdm660_64-user 11 RKQ1.210406.002 1.015.00
-vendor/bin/pm-proxy|42383b9163716d8e6d81f0516e9cf09f22ea8b06
-vendor/bin/pm-service|b0a5d3491615ef9a237d93a393082105e3c0097c
-vendor/lib/libperipheral_client.so|8f7e9ebd1a8dc6afc878b97c078a3deb97963d68
-vendor/lib64/libperipheral_client.so|9bfd41e276e16b8f7c6808f3d87531fc5be4cdd5
+# Peripheral - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+vendor/bin/pm-proxy|e7b60d477d1c4f7a012408e0804e658bb255aef4
+vendor/bin/pm-service|8a638e73598be5c7470ae0e99a050bf8a4be8ae7
+vendor/lib64/libperipheral_client.so|d31195fdcb56f7cba8034f5a7f7d38b401332c63
 
 # Postprocessing - from Cat S62Pro sdm660_64-user 11 RKQ1.210406.002 1.015.00
 vendor/bin/hw/vendor.display.color@1.0-service|a1640ca55a67e701003fa1f6f92bd127f180d2b2
@@ -488,6 +518,16 @@ vendor/lib64/libqmi_encdec.so|a18bb21e5b9b53e3dc8dc45f6e7e65e32a467607
 vendor/lib64/libqmi_legacy.so|f324c6701ecf78ff50975c0bc7f99aea09cb3539
 vendor/lib64/libqmiservices.so|52770edf3e35f5376f3d0a131636f3213c9e59fa
 vendor/lib64/libqmi.so|d12727e7d99cc15fa13f20453b04916fd3908e22
+
+# QSEEcom HAL - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+system_ext/lib/vendor.qti.hardware.qseecom@1.0.so|44c39e51135b3752615e3e2b1adb32e10b81abc4
+system_ext/lib64/vendor.qti.hardware.qseecom@1.0.so|ff725c42df592e5a680234683fd4833276b4b4a5
+vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service|b4ab4e64dd1d45fb38715dd3144e87c57b2e6d17
+vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc|0f43244d70d5efc1e4f089b926a9dc4f59e53db1
+vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so|3142010d06fd79f3f78989ba9d99ff3ac1a77990
+vendor/lib/vendor.qti.hardware.qseecom@1.0.so|620b42bdbb3e3a295eec19ba0fafa4302887a23c
+vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so|53619d9b4789c249b9db6531f72bd4b73a6df064
+vendor/lib64/vendor.qti.hardware.qseecom@1.0.so|6dc7ba18a9b28d4d5f3e6928b5f8c33219474c83
 
 # Radio - from Cat S62Pro sdm660_64-user 11 RKQ1.210406.002 1.015.00
 system_ext/app/DeviceInfo/DeviceInfo.apk|1115ff685be64dfb3f4752911f7389ac7b676724
