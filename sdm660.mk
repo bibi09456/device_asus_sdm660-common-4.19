@@ -373,10 +373,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/qmi_fw.conf:$(TARGET_COPY_OUT_VENDOR)/etc/qmi_fw.conf
 
-# QNS
-PRODUCT_PACKAGES += \
-    libstdc++_vendor
-
 # Radio
 PRODUCT_PACKAGES += \
     extphonelib \
