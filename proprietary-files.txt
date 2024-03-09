@@ -665,10 +665,10 @@ vendor/lib/libpn553_fw.so
 # Perf - from ddv_sprout 11-RKQ1.210607.001-00WW_3_440-release-keys
 vendor/bin/msm_irqbalance|b075c2f4092c175950a2c26d19bf2013e2efd6d5
 
-# Peripheral - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
-vendor/bin/pm-proxy|e7b60d477d1c4f7a012408e0804e658bb255aef4
-vendor/bin/pm-service|8a638e73598be5c7470ae0e99a050bf8a4be8ae7
-vendor/lib64/libperipheral_client.so|d31195fdcb56f7cba8034f5a7f7d38b401332c63
+# Peripheral - from Zebra/helios/helios:13/13-22-18.00-TG-U02-STD-HEL-04/84:user/release-keys
+vendor/bin/pm-proxy|96c50d1dae229c9438db043b9a912af87e2a7e16
+vendor/bin/pm-service|d6503051e0ae7a1bb418e6050867c5e01624487f
+vendor/lib64/libperipheral_client.so|95f7a7d72825708d307e3d2322523dc3aed67363
 
 # Postprocessing - from Cat S62Pro sdm660_64-user 11 RKQ1.210406.002 1.015.00
 vendor/bin/hw/vendor.display.color@1.0-service|a1640ca55a67e701003fa1f6f92bd127f180d2b2
