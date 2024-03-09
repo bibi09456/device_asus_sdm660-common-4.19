@@ -576,8 +576,8 @@ vendor/lib64/libtinyxml2_1.so|6d602dfd9df770ee6ecdbe0e9d98b8951dd8483d
 vendor/lib/hw/vulkan.adreno.so|6380e9bfb197f9d0c5343947fcf4951547081e08
 vendor/lib64/hw/vulkan.adreno.so|ddd807adafcfe2de02c12d785317ebf56bc19e2f
 
-# IRQ balance - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
-vendor/bin/msm_irqbalance|33325d1b5bd1c4fdfa964f638da633ef8ca1ac43
+# IRQ balance - from Zebra/helios/helios:13/13-22-18.00-TG-U02-STD-HEL-04/84:user/release-keys
+vendor/bin/msm_irqbalance|9e39bffcabe1dfd1d1a4d004171c7b01179f3ca8
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
