@@ -579,17 +579,23 @@ vendor/lib64/hw/vulkan.adreno.so|ddd807adafcfe2de02c12d785317ebf56bc19e2f
 # IRQ balance - from Zebra/helios/helios:13/13-22-18.00-TG-U02-STD-HEL-04/84:user/release-keys
 vendor/bin/msm_irqbalance|9e39bffcabe1dfd1d1a4d004171c7b01179f3ca8
 
-# Keymaster
-vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
-vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
-vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib/libkeymasterdeviceutils.so
-vendor/lib/libkeymasterprovision.so
-vendor/lib/libkeymasterutils.so
-vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib64/libkeymasterdeviceutils.so
-vendor/lib64/libkeymasterprovision.so
-vendor/lib64/libkeymasterutils.so
+# Keymaster - from Zebra/helios/helios:13/13-22-18.00-TG-U02-STD-HEL-04/84:user/release-keys
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|549af6e45e14fcca052c3b4a41daad56ad402733
+vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|ad5f83c00616392d33ead371500ec0fb142eea73
+# vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc|573b7392c8997008204081165cfe81a11080745d
+# vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc|c8999fb1bccbef81e6b362059e9a6ebd023de98f
+vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so|a4939ac6fa1be764110d573cdeb49f14eed80f44
+vendor/lib/libkeymasterdeviceutils.so|1c176ef4f147fd39704304421cafd2d08766ff58
+vendor/lib/libkeymasterprovision.so|dbc51c3e002ab139a6c6c4932a024a7404d8bed5
+vendor/lib/libkeymasterutils.so|827dd23eac41006c510d77fa0833d2f91eddb845
+vendor/lib/libqcbor.so|1332c20f669eeeb3b99b2f0907f3e5ec13817477
+vendor/lib/libqtikeymaster4.so|4083c9a24e5a6379efadbf73bd43778c17442a4b
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so|122c6f34831b3e2f32e0b3140e1044fba3619bfc
+vendor/lib64/libkeymasterdeviceutils.so|2fd608b63b1fb2ef6b940378c3319f1e85960a76
+vendor/lib64/libkeymasterprovision.so|644aaee0573b5d0edba6fe5a193de4e0d67deb28
+vendor/lib64/libkeymasterutils.so|40a8cbd82dcf8496db39511f4d6f2e93b63de439
+vendor/lib64/libqcbor.so|dc6b0d7ac44d7a8de35403cc92ee4417b154db5d
+vendor/lib64/libqtikeymaster4.so|0df7c63aa868c62956a03bce096bb5bfee0c811e
 
 # Listen - from LA.QSSI.13.0.r1-09700-qssi.0
 system_ext/lib/liblistenjni.qti.so|54159c7706bd174def457432e929c3867c8a93e7
