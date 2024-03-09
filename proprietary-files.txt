@@ -502,63 +502,79 @@ vendor/lib64/vendor.qti.gnss@4.0.so|a392996dde7af7fb6ce8ac8e355d8a5bb4600e8c
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so|612712549bd83528ef49416e0909514a717edc75
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|c2fb5905cebc17708b56b7220f053ad8848034ef
 
-# Graphics - from Cat S62Pro sdm660_64-user 11 RKQ1.210406.002 1.015.00
-vendor/lib/egl/eglSubDriverAndroid.so|28b215e408ee67c14ef9e9aaf5e4e4ed0a1ac7ff
-vendor/lib/egl/libEGL_adreno.so|5611a6caa50562757d812553642a0a45fcc12668
-vendor/lib/egl/libGLESv1_CM_adreno.so|446279f43811de885507bdd3d6491da8f0cfd26d
-vendor/lib/egl/libGLESv2_adreno.so|9f62562aa9d2bd1f3cd2f6c12376c42e2591d805
-vendor/lib/egl/libq3dtools_adreno.so|49c03ff3c14e17af525c66f5cf017504e689f54e
-vendor/lib/egl/libq3dtools_esx.so|f11effc559d8e377009501cbf6b7043f3cd34a10
-vendor/lib/libC2D2.so|7ffbb30a7b99d532eaf20b4a117fd908f1acdc01
-vendor/lib/libCB.so|233dd32c4e3004324901c0c12fd9b688b4a4f1d2
-vendor/lib/libOpenCL.so|84bf30e06f738179363c71b8ffc6864042fe4527
-vendor/lib/librs_adreno.so|f21ef747165dea556d9213d024dc0dd003021fff
-vendor/lib/libVkLayer_q3dtools.so|51a73841b7ae0e638ffd37be99de81f394cabc5a
-vendor/lib/libadreno_utils.so|0809d1540ed6131ce6faab50b179750bc5d70b6f
-vendor/lib/libc2d30_bltlib.so|483ec30a1daf5c3d5a5bd1e63570ad6489fe3af0
-vendor/lib/libgpudataproducer.so|468eac68a5dd89febaff544e1b7564ebce6d00f0
-vendor/lib/libgsl.so|f4fb2c9e7490bc48833d3121cff65226f813e81b
-vendor/lib/libllvm-glnext.so|8599f54f3ba72210dbb0ff1d8b0a34f5420d78ca
-vendor/lib/libllvm-qcom.so|349f9f97f6f1856884b0773ea5dbb67c4eb168bf
-vendor/lib64/egl/eglSubDriverAndroid.so|ed050550deedeead9491574a6665f30f6ec4785b
-vendor/lib64/egl/libEGL_adreno.so|d602670a45e49916be5e0c2c60a8f0fe3f526791
-vendor/lib64/egl/libGLESv1_CM_adreno.so|b45486353fceb47ec419ef580fdf6d2305a842ff
-vendor/lib64/egl/libGLESv2_adreno.so|17caf92e1492db6c0aa743cf07b28bfaed7524c6
-vendor/lib64/egl/libq3dtools_adreno.so|189b9c3d400c6a98c87582b8df0910530cba6d44
-vendor/lib64/egl/libq3dtools_esx.so|1305e1b5da72686813a8c11e78fc7b8332362ccf
-vendor/lib64/libC2D2.so|175115cc36fd471f9eb83af76be21b5f602b9460
-vendor/lib64/libCB.so|acc32f1bc487abeb3d934a790dcf50724c592f88
-vendor/lib64/libOpenCL.so|b11edb1001dd25079e9f197fcd3910285cba0311
-vendor/lib64/librs_adreno.so|766453d2e3a4ab4a01908b78240abaa4f1b73d21
-vendor/lib64/libVkLayer_q3dtools.so|cb4824976e2ee9ff4de2f0ce059a8fd8b0c69f1c
-vendor/lib64/libadreno_utils.so|f2b21eaf5b8aae2ad7611cbebb1e2eca15fd1f8f
-vendor/lib64/libc2d30_bltlib.so|9fe052fbb5a47b9d256c7a2ea849f86fed0b6fcf
-vendor/lib64/libgpudataproducer.so|9b3d3f08047848378bd552f95220e1f2013e1b81
-vendor/lib64/libgsl.so|b9b842c7585cbbf094cc131a85fc5fd0c11bb3e7
-vendor/lib64/libllvm-glnext.so|993192308ee2b90607dbd9541ede2c93e66a0ecb
-vendor/lib64/libllvm-qcom.so|e773582b89436b4b2fd7e63983a5b7ca24748cfa
+# Graphics - from Zebra/helios/helios:13/13-22-18.00-TG-U02-STD-HEL-04/84:user/release-keys
+vendor/lib/egl/eglSubDriverAndroid.so|060dba8d1f7bdfb2a2a5cabc6fb7fbfe48473bce
+vendor/lib/egl/libEGL_adreno.so|88e2304085953b5ae669c7ce6faf2badebd68e19
+vendor/lib/egl/libGLESv1_CM_adreno.so|0a147805e9141176a75865e0a4a442f86d2a01b4
+vendor/lib/egl/libGLESv2_adreno.so|af784924b71013299388f46cc429ccc626230467
+vendor/lib/egl/libq3dtools_adreno.so|6019ae8a364cd02495aaab20eaa8447d7c6bb765
+vendor/lib/egl/libq3dtools_esx.so|abe5c3d8c9e3b3f6837bc660db3d71d8a3a04e59
+vendor/lib/libadreno_utils.so|353bf541bd55db6e6b27d35020b4524064afcc6b
+vendor/lib/libC2D2.so|d615afb5c1f3cfdf2ef886508f965d37e4df8671
+vendor/lib/libc2d30_bltlib.so|984932a51e057d917077593af7871a873654ea2e
+vendor/lib/libCB.so|4101777c293bbe446dbe8c99d802bc93f0b53442
+vendor/lib/libgpudataproducer.so|0cbee1a87880f2c61dda27e4c1ce763b8f6e09b7
+vendor/lib/libgsl.so|95cf9dad3e226bc31c84f6bb059611696ccbad04
+vendor/lib/libllvm-glnext.so|878ccacec32ab702bcce9dd187c7221d7e00e073
+vendor/lib/libllvm-qcom.so|57a7a584e96e1beab4b5bb190273cbea72e26154
+vendor/lib/libOpenCL.so|a1e2335088cd01efdbc56b27f311afaaad18d87d
+vendor/lib/librs_adreno.so|5bf85e1f671444105323c9f61799c6cf3a0ea075
+vendor/lib/libVkLayer_q3dtools.so|e4fa94e3b4a040a958d26cfc6b762e174dc36fb0
+vendor/lib64/egl/eglSubDriverAndroid.so|7f60db4fb7f5bb4376c7c43e6c0e95fcd4cfe9b5
+vendor/lib64/egl/libEGL_adreno.so|6496d03bc5fc937d263bd6d120d4a6f3a5ca259e
+vendor/lib64/egl/libGLESv1_CM_adreno.so|8e8a325a9453f4d96f6ef9f32e9f10deee3c80d7
+vendor/lib64/egl/libGLESv2_adreno.so|52051fd0eaa925c3c6bb83bd0913e7e7fb015264
+vendor/lib64/egl/libq3dtools_adreno.so|9b7cf24c07b69e13245c796fd17e83daca3c8fad
+vendor/lib64/egl/libq3dtools_esx.so|2d5f3a606896b63777e58aae1aa7aa6299dd3a94
+vendor/lib64/libadreno_utils.so|273e46534f9b3ca33e45e7dbbe8f2f5dcad892f8
+vendor/lib64/libC2D2.so|8db0ab2f83750393e9ed6c81d6b15bb9340479fe
+vendor/lib64/libc2d30_bltlib.so|e13d7ae099bee39683f85c5a2d23f7345642f66d
+vendor/lib64/libCB.so|4f6e6f13dfeb04f3bdb1b2afa69dbe266c36357b
+vendor/lib64/libgpudataproducer.so|2b9da7e881c8d5562ed0d498721e3c239596df67
+vendor/lib64/libgsl.so|3d8b35056d9b6e57496a27f9450322f98631eac4
+vendor/lib64/libllvm-glnext.so|febfe0394dd58bc882a2be7986ab240644077229
+vendor/lib64/libllvm-qcom.so|1c9d3822a56d981a6ffff4d876e1e8609681b662
+vendor/lib64/libOpenCL.so|df73d6045873350b3ef49a8eaaa0c6e5fd958a4c
+vendor/lib64/librs_adreno.so|e1e8c1db5fd06d55498bc235618acb2792174411
+vendor/lib64/libVkLayer_q3dtools.so|55b486927aed5589f13e1fa66162e845d44e1c43
 
-# Graphics (HDR) - from Cat S62Pro sdm660_64-user 11 RKQ1.210406.002 1.015.00
-vendor/lib/libhdr_tm.so|a2292af314f9fa86b9ec2bb11ad72bf85e959842
-vendor/lib64/libhdr_tm.so|a1b9bbad12217e6b79951774801aa54be6460fd6
+# Graphics (HDR) - from Zebra/helios/helios:13/13-22-18.00-TG-U02-STD-HEL-04/84:user/release-keys
+vendor/lib/libhdr_tm.so|dd0e01284e1e76244a849e5a2e0393a21bd36508
+vendor/lib64/libhdr_tm.so|28117de78d64d15d1454a13b50c17b168170e456
 
-# Graphics (SDM) - from Cat S62Pro sdm660_64-user 11 RKQ1.210406.002 1.015.00
-vendor/lib/libqseed3.so|1a67e4c3e7d904dc3d3af35c0f516fe13ed88bcb
-vendor/lib/libsdm-color.so|43bfdb63147740a728e704b35c659301bca7ede2
-vendor/lib/libsdm-diag.so|a2b532158e12562e1fb74695bf829de1b94c2cde
-vendor/lib/libsdm-disp-vndapis.so|501f1b94c95f885e1e2bfab4d5f6804456473d79
-vendor/lib/libsdmextension.so|499d9b9be4fb53b2410f65976ea94f2c154b9f11
-vendor/lib/libtinyxml2_1.so|aec76b36890b163f9cf1be594d6b082887f0a9b2
-vendor/lib64/libqseed3.so|a858c83fb38ef7acd21ea0a23f36ef22ba8c06ef
-vendor/lib64/libsdm-color.so|69cea5fdff6c3ef05a17390b9031d9e0054bc2ad
-vendor/lib64/libsdm-diag.so|2ba98c20d05e34501a4423f55bec4da3f27711ad
-vendor/lib64/libsdm-disp-vndapis.so|80170ba42ef766a8217500e49c4943be91cf0749
-vendor/lib64/libsdmextension.so|2d7469450bfaadb304a8080e384f72601442d078
-vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
+# Graphics (Postprocessing) - from Zebra/helios/helios:13/13-22-18.00-TG-U02-STD-HEL-04/84:user/release-keys
+vendor/bin/hw/vendor.display.color@1.0-service|f21f110b890278b94616b40a83277426c07bfcef
+vendor/bin/mm-pp-dpps|8a3c5968edaf259a982e99455ffd9b34168237a6
+vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
+vendor/lib/vendor.display.color@1.0.so|4cfc58d5531fe2a8583f9f4057a922cbe7fa553d
+vendor/lib/vendor.display.color@1.1.so|0ee913ec1db6386e0ceca73e1472fd3b16fa7abf
+vendor/lib/vendor.display.color@1.2.so|f8e3c3352dabcf3967ac7a13ca5e378c6e313104
+vendor/lib/vendor.display.postproc@1.0.so|cb6c568f3678154bcf86b24e7e3b11f16da1728b
+vendor/lib64/libdisp-aba.so|9ce877f02ff7fd2b429aebe7c8e95a0c969c395d
+vendor/lib64/vendor.display.color@1.0.so|b502506db34c16d613dc1bcd6d1c5a4098435e21
+vendor/lib64/vendor.display.color@1.1.so|65409342ecea5cfa2103a4ab0b6380ef691e2888
+vendor/lib64/vendor.display.color@1.2.so|ada5c4d7907fe649dda8507c8c6fe63c50ae1e10
+vendor/lib64/vendor.display.postproc@1.0.so|408b4edd234e9da45ab55d64950af8b58ca5e6bf
 
-# Graphics (Vulkan) - from Cat S62Pro sdm660_64-user 11 RKQ1.210406.002 1.015.00
-vendor/lib/hw/vulkan.adreno.so|139868cf11006199fffc109b7a207e4e7f4cbd18
-vendor/lib64/hw/vulkan.adreno.so|9215100009b574f71dc75272f22a499302ea121d
+# Graphics (SDM) - from Zebra/helios/helios:13/13-22-18.00-TG-U02-STD-HEL-04/84:user/release-keys
+lib/libsdm-disp-apis.so|eba35c0353f6bd08959b36ddf9a7d213c49c795d
+lib64/libsdm-disp-apis.so|d762f4e901a7330f37ef72bd6d4f677bc65e601a
+vendor/lib/libqseed3.so|594968e708352f1acad45d0b5a51b01d99d7df01
+vendor/lib/libsdm-color.so|0b7f6dec24301d64983e34e634c0d09b4174fd88
+vendor/lib/libsdm-diag.so|f3a64959eff169e4a1b82ee2592ff3a45f2e29f8
+-vendor/lib/libsdm-disp-vndapis.so|41c68e9d09bc00e172008ffdc0f0e4df880d7b13
+vendor/lib/libsdmextension.so|5d5c146ff0c6f4fb388c9878c01b298539ee09e6
+vendor/lib/libtinyxml2_1.so|850841dcda03fc62bbc8c0eb67bcceb05232cca8
+vendor/lib64/libqseed3.so|43119af1a229c256bb1d9af6338b77cbcd5baae7
+vendor/lib64/libsdm-color.so|d0c5d3287256c034437eeb007be068cf67742805
+vendor/lib64/libsdm-diag.so|cfcd838d9ca203e70a5e284b36a274e6b479f485
+-vendor/lib64/libsdm-disp-vndapis.so|a5a1ebf08f7c1f4104cbf8ac69d5f42523fdb0fa
+vendor/lib64/libsdmextension.so|9baf67fa56d5c7bb296bf6c4942c253522638dd2
+vendor/lib64/libtinyxml2_1.so|6d602dfd9df770ee6ecdbe0e9d98b8951dd8483d
+
+# Graphics (Vulkan) - from Zebra/helios/helios:13/13-22-18.00-TG-U02-STD-HEL-04/84:user/release-keys
+vendor/lib/hw/vulkan.adreno.so|6380e9bfb197f9d0c5343947fcf4951547081e08
+vendor/lib64/hw/vulkan.adreno.so|ddd807adafcfe2de02c12d785317ebf56bc19e2f
 
 # IRQ balance - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
 vendor/bin/msm_irqbalance|33325d1b5bd1c4fdfa964f638da633ef8ca1ac43
