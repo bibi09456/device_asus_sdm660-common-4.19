@@ -1062,9 +1062,11 @@ vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|15378114c18fd1b1c8f96
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|4ba792ee3234dca4cd7ebbd7b3f9003c800f51b4
 
-# Time services - from Cat S62Pro sdm660_64-user 11 RKQ1.210406.002 1.015.00
--vendor/app/TimeService/TimeService.apk|88f7c7f4c10f53dfd69cf7828f883d3df82003e7
-vendor/bin/time_daemon|48401d7f85c87aa3e12ce7b4a969a50cbf59c293
+# Time services - from Zebra/helios/helios:13/13-22-18.00-TG-U02-STD-HEL-04/84:user/release-keys
+-vendor/app/TimeService/TimeService.apk|8155de9d66f1f6d5b58a1af12f420d6889cea877
+-vendor/lib/libtime_genoff.so|5482c1954b46755270a20208420d6fb527d223c4
+-vendor/lib64/libtime_genoff.so|1665709ab77112c33fa84a6dd45913e1d3adb4ce
+vendor/bin/time_daemon|a313e2419cd77d99ff4a40a88defe77088a4bc8f
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|8bb116ad297a5e4a94da2f10509509cb6e863a5f
 
