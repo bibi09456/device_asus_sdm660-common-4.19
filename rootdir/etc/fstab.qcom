@@ -28,4 +28,4 @@ odm                                      /odm                   ext4   ro,barrie
 /dev/block/bootdevice/by-name/logdump    /metadata              ext4   noatime,nosuid,nodev,discard                     wait,check,formattable,first_stage_mount
 
 # ZRAM
-/dev/block/zram0                         none        swap   defaults    zramsize=75%,max_comp_streams=8
+/dev/block/zram0                         none        swap   defaults    zramsize=75%,max_comp_streams=4
