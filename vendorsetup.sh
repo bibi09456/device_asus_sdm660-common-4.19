@@ -1,0 +1,1 @@
+git clone --depth=1 --recursive https://github.com/SKetU-l/kernel_asus_sdm660-4.19 kernel/asus/sdm660
