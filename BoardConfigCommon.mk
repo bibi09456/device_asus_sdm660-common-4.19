@@ -52,7 +52,10 @@ TARGET_USES_QTI_MAPPER_2_0 := true
 TARGET_USES_QTI_MAPPER_EXTENSIONS_1_1 := true
 
 # FCM
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(COMMON_PATH)/framework_compatibility_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
+$(COMMON_PATH)/framework_compatibility_matrix.xml \
+    hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml \
+    vendor/lineage/config/device_framework_matrix.xml
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
