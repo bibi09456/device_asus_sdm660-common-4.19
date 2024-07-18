@@ -42,9 +42,6 @@ BUILD_BROKEN_DUP_RULES := true
 # Camera
 BOARD_QTI_CAMERA_32BIT_ONLY := true
 
-# Creates metadata partition mount point under root for the devices with metadata parition
-BOARD_USES_METADATA_PARTITION := true
-
 # Display
 TARGET_SCREEN_DENSITY := 420
 TARGET_USES_GRALLOC1 := true
