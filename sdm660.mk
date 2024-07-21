@@ -348,7 +348,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.asus_sdm660-libperfmgr \
+    android.hardware.power-service.lineage-libperfmgr \
     android.hardware.power.stats@1.0-service.mock \
     android.hardware.power.stats@1.0.vendor
 
@@ -449,7 +449,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
-    hardware/google/pixel
+    hardware/google/pixel \
+    hardware/lineage/interfaces/power-libperfmgr
 
 # Speed profile services and wifi-service to reduce RAM and storage
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
